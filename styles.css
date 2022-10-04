@@ -16,6 +16,7 @@
 .logo {
     max-height: 50px;
     padding-left: 10%;
+    border-radius: 50%;
 }
 
 .header-link-container {
@@ -37,7 +38,6 @@
 
 .first-sub-container {
     padding-left: 10%;
-    gap: 50px;
 }
 
 .hero-main-text {
@@ -50,7 +50,7 @@
 .hero-secondary-text {
     font-size: 18px;
     color: #E5E7EB;
-    margin-bottom: 15px; 
+    margin-bottom: 30px; 
 }
 
 .second-sub-container {
@@ -61,6 +61,7 @@
     max-height: 300px;
     margin-left: 30px;
     border-radius: 10%;
+    border: #E5E7EB solid 3px;
 }
 
 .donate button {
@@ -69,4 +70,215 @@
     color: #E5E7EB;
     font-weight: 800;
     padding: 5px 20px;
+}
+
+/* Second Container */
+
+.second-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.bold-information {
+    font-size: 30px;
+    font-weight: 900;
+    margin-top: 40px;
+    color:#1f2937;
+}
+
+.gallery-container {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    margin: 30px;
+    max-width: 100%;
+}
+
+.sub-container1, .sub-container2, .sub-container3, .sub-container4, .sub-container5 {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    flex-wrap: wrap-reverse;
+    text-align: center;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 15px;
+    font-size: 18px;
+    color: #1f2937;
+    margin-bottom: 15px; 
+}
+
+.sub-container1 img {
+    height: 200px;
+    object-fit: cover;
+    width: 200px;
+    border: #3882f6 2px solid;
+    border-radius: 20%;
+    padding-top: 3px;
+}
+
+
+.sub-container2 img {
+    height: 200px;
+    object-fit: cover;
+    width: 200px;
+    border: #3882f6 2px solid;
+    border-radius: 20%;
+    padding-top: 3px;
+}
+
+.sub-container3 img {
+    height: 200px;
+    object-fit: cover;
+    width: 200px;
+    border: #3882f6 2px solid;
+    border-radius: 20%;
+    padding-top: 3px;
+}
+
+.sub-container4 img {
+    height: 200px;
+    object-fit: cover;
+    width: 200px;
+    border: #3882f6 2px solid;
+    border-radius: 20%;
+    padding-top: 3px;
+}
+
+.sub-container5 img {
+    height: 200px;
+    object-fit: cover;
+    width: 200px;
+    border: #3882f6 2px solid;
+    border-radius: 20%;
+    padding-top: 3px;
+}
+
+
+/* Third Container */
+
+.third-container {
+    background-color: #e5e7eb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    flex: 1;
+}
+
+.quote-container {
+    width: 40%;
+    font-size: 18px;
+    color: #1f2937;
+    font-style: italic;
+    padding-top: 40px;
+}
+
+.quote-by-container {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 5px;
+    padding-bottom: 40px;
+}
+
+.quote-by {
+    font-weight: 900;
+    font-size: 18px;
+    color: #1f2937;
+}
+
+/* Forth Container */
+
+.forth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: orange dotted 3px;
+    flex: 1;
+    padding: 40px;
+}
+
+.button-card-container {
+    border: #3882f6 dotted 3px;
+    display: flex;
+    background-color: #3882f6;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px ;
+}
+
+.call-action-container {
+    
+    width: 60%;
+    padding-left: 10%;
+}
+
+.call-title {
+    font-size: 18px;
+    color: #E5E7EB;
+    font-weight: 900;
+    margin-top: 10px; 
+}
+
+.call-text {
+    font-size: 14px;
+    color: #E5E7EB;
+    margin-top: 10px; 
+    margin-bottom: 10px;
+}
+
+.button-container {
+    
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.help button {
+    background-color: #3882f6;
+    border-radius: 10%;
+    color: #E5E7EB;
+    font-weight: 800;
+    padding: 5px 40px;
+    display: flex;
+    flex: 1;
+    flex-wrap: nowrap;
+    border: 2px solid white;
+}
+
+
+
+
+/*
+.button-card-container > * {
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    width: 60%;
+    margin: 40px;
+    background-color: #3882f6;
+}
+
+.call-action-container {
+    
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    width: 40%;
+}
+
+.help button {
+    background-color: #3882f6;
+    border-radius: 10%;
+    color: #E5E7EB;
+    font-weight: 800;
+    padding: 5px 20px;
+    border: #E5E7EB solid 2px;
 }
